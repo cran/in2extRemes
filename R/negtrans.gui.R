@@ -1,11 +1,3 @@
-##
-## TO DO: Add a command like the following to supress warnings about global variables,
-## and edit to include any global variable calls.
-##
-## utils::globalVariables(c(".obj1", "obj2"))
-##
-
-
 negtrans.gui <- function(base.txt) {
     
     # This function provides a gui interface for finding the negative (for mins)
@@ -13,10 +5,6 @@ negtrans.gui <- function(base.txt) {
     # "in2extRemesDataObject" and the column names of the user selected object.
     # After taking the negative of the selected data, will add a new column to the
     # data object with the extension ".neg" attached to the original column name(s).
-
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "dd", 
-		    "dd.cmd", "cols.selected.cmd", "cnamesCMD", "negCMD", "dataCMD",
-			"colnamesCMD", "assignCMD"))
 
     # Internal functions
     

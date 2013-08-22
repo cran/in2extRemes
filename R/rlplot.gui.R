@@ -1,7 +1,5 @@
 rlplot.gui <- function( base.txt) {
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "z.cmd", "rlplotCMD"))
-
     # Refresh fcn 
     refresh <- function() {
 

@@ -5,8 +5,6 @@ DataSummaryGUI <- function(base.txt) {
 
     # Internal functions
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "summaryCMD"))
-
     submit <- function() {
 
         # Function invoked when the "ok" button is pressed.

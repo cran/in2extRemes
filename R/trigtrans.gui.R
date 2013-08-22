@@ -7,9 +7,6 @@ trigtrans.gui <- function(base.txt) {
     # will return two new columns with the same column names, but with a ".sinT" or ".cosT"
     # extension (for sine/cosine with period T).
    
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "dd",
-	"dd.cmd", "cols.selected.cmd", "cnames.cmd", "Xcmd", "sinTcmd", "cosTcmd", "colnames.cmd", "assignCMD"))
- 
     # Set the tcl variables
     
     period.val <- tclVar(365.25)

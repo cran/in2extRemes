@@ -1,8 +1,5 @@
 evdfit.gui <- function( base.txt) {
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "dd", "cov.names.cmd", "dd.cmd", "xdat.cmd", "threshold.val.cmd", "cmd",
-				"printCMD", "plotCMD", "assignCMD"))
-
     #  Set the tcl variables
     plot.diags <- tclVar(0)
     threshold.value <- tclVar("")

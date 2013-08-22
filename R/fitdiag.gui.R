@@ -1,7 +1,5 @@
 fitdiag.gui <- function(base.txt) {
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "plotCMD"))
-
     # Refresh fcn 
     refresh <- function() {
 

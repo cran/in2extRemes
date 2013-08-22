@@ -1,7 +1,5 @@
 simgp.gui <- function(base.txt) {
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("p.cmd", "trendCMD", "gp.sim.cmd", "plotCMD", "colnamesCMD", "assignCMD", "saveCMD"))
-
     # Internal functions.
      
     generate <- function() {

@@ -1,14 +1,8 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("dd", "tmp.names", "in2extRemesData",
-                "dd.cmd", "NameCMD", "tmpCMD", "colnamesCMD", "cmd", "assignCMD"))
-
 scrubber.gui <- function( base.txt) {
     
     ##################################
     # Internal functions
     ##################################
-
-#    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd", "tmp.names", "in2extRemesData",
-#		"dd.cmd", "NameCMD", "tmpCMD", "colnamesCMD", "cmd", "assignCMD"))
 
     # Refresh fcn 
     refresh <- function() {

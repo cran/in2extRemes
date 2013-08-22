@@ -1,6 +1,16 @@
-in2extRemes <- function () {
+if(getRversion() >= "2.15.1") utils::globalVariables(c("ablineCMD", "assignCMD", "assign.cmd", "atdf.cmd", "bmaxxer",
+    "cb.cmd", "ci.cmd", "class.cmd", "cmd", "cnames", "cnamesCMD", "cnames.cmd", "colnamesCMD", "colnames.cmd", "cols.selected",
+    "cols.selected.cmd", "cosTcmd", "cov.names.cmd",
+    "dataCMD", "dd", "dd.cmd", "eiCMD", "fit", "fit.cmd", "fitrange.cmd",
+    "gev.sim.cmd", "gp.sim.cmd", "histCMD", "in2extRemesData", "ind.cmd", "lt.cmd",
+    "m0.cmd", "m1.cmd", "M.cmd", "mod.fit", "mod.fit.cmd", "mrlplotCMD", "msg.cmd",
+    "NameCMD", "N.cmd", "negCMD", "newdata.cmd", "newnames",
+    "out.cmd", "p.cmd", "plotCMD", "printCMD", "putfitCMD", "response.cmd", "rlplotCMD",
+    "saveCMD", "sinTcmd", "summaryCMD",
+    "threshold.val.cmd", "tmpCMD", "tmp.data.cmd", "tmp.ldr.cmd", "tmp.names", "trendCMD", "trendNameCMD", 
+    "var.name.cmd", "var.val.cmd", "Xcmd", "xdat.cmd", "z.cmd"))
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("saveCMD"))
+in2extRemes <- function () {
 
     ev.dataexists <- function() {
 

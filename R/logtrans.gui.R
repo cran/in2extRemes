@@ -8,9 +8,6 @@ logtrans.gui <- function(base.txt) {
     # ".Blt" where 'B' is the user given base other than 'exp' if a base other
     # than 'e' is chosen.
    
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected",
-	"dd.cmd", "cols.selected.cmd", "cnamesCMD", "lt.cmd", "dataCMD", "colnamesCMD", "assignCMD"))
- 
     # Set the tcl variables
     
     ebase <- tclVar(1)

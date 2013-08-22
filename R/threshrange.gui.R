@@ -1,7 +1,5 @@
 threshrange.gui <- function( base.txt) {
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "dd.cmd", "var.val.cmd", "fitrange.cmd"))
-
     #
     # Function to provide guis for the 'gpd.fitrange' fcn of Stuart Coles.
     #

@@ -12,7 +12,7 @@ as.in2extRemesDataObject <- function(x) {
 
     } else if(is.vector(x)) {
 
-	out$data <- cbind(1:length( x), x)
+	out$data <- cbind(1:length(x), x)
 
 	colnames(out$data) <- c("obs", deparse(substitute(x)))
 

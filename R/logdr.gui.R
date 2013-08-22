@@ -6,10 +6,6 @@ logdr.gui <- function( base.txt) {
     # After taking the log daily returns of the selected data, will return a new
     # column with the same column name(s), but with a ".ldr" extension.
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "dd",
-	"dd.cmd", "cols.selected.cmd", "cnames.cmd", "N.cmd", "tmp.ldr.cmd", "newdata.cmd",
-				"colnamesCMD", "assignCMD"))
-
     # Set the tcl variables
     
     ebase <- tclVar(1)

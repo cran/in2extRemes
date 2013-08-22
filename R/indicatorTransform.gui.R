@@ -1,10 +1,4 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "newnames", "dd",
-        "dd.cmd", "cols.selected.cmd", "cnames.cmd", "z.cmd", "ind.cmd", "colnames.cmd", "assignCMD"))
-
 indicatorTransform.gui <- function(base.txt) {
-
-# if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "newnames", "dd",
-#	"dd.cmd", "cols.selected.cmd", "cnames.cmd", "z.cmd", "ind.cmd", "colnames.cmd", "assignCMD"))
 
     # This function provides a gui interface for taking an indicator transformation 
     # of data, 'x'.

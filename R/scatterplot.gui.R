@@ -4,8 +4,6 @@ scatterplot.gui <- function(base.txt) {
     # very basic plotting routine
     #
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "plotCMD"))
-
     pch.value <- tclVar("o")
     type.value <- tclVar("point")
     

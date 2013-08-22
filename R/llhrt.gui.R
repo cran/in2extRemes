@@ -1,7 +1,5 @@
 llhrt.gui <- function( base.txt) {
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "m0.cmd", "m1.cmd", "out.cmd"))
-
     alpha.val <- tclVar("0.05")
     
     # Refresh fcn 

@@ -1,10 +1,4 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "bmaxxer", "dd",
-                "cmd", "dd.cmd", "cnames.cmd", "out.cmd", "assignCMD", "saveCMD"))
-
 bmaxxer.gui <- function(base.txt) {
-
-#    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "bmaxxer", "dd", 
-#		"cmd", "dd.cmd", "cnames.cmd", "out.cmd", "assignCMD", "saveCMD"))
 
     # This function provides a gui interface for taking the block maxima a dataset.
     # The gui will list all objects of class

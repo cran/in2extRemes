@@ -1,12 +1,4 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("dd", "cnames", "mod.fit", "in2extRemesData", "dd.cmd", "cmd",
-                        "response.cmd", "cnamesCMD", "trendNameCMD", "trendCMD", "mod.fit.cmd",
-                        "putfitCMD", "plotCMD", "ablineCMD", "summaryCMD", "assignCMD"))
-
 poisson.gui <- function(base.txt) {
-   
-#    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd", "cnames", "mod.fit", "in2extRemesData", "dd.cmd", "cmd", 
-#			"response.cmd", "cnamesCMD", "trendNameCMD", "trendCMD", "mod.fit.cmd",
-#			"putfitCMD", "plotCMD", "ablineCMD", "summaryCMD", "assignCMD"))
  
     # fits a poisson distribution with
     # a trend if desired

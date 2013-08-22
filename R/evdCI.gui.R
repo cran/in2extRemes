@@ -1,5 +1,3 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("fit", "dd.cmd", "fit.cmd", "ci.cmd", "printCMD"))
-
 evdCI.gui <- function( base.txt) {
 
     # Initialize tcl variables.

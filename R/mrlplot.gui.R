@@ -1,7 +1,5 @@
 mrlplot.gui <- function( base.txt) {
     
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "var.val.cmd", "var.name.cmd", "mrlplotCMD"))
-    
     # This function provides gui support for the 'mrl.plot' fcn
     
     # Initialize tcl values.

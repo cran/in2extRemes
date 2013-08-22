@@ -1,10 +1,4 @@
-if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "dd",
-                    "dd.cmd", "cnames.cmd", "cols.selected.cmd", "cb.cmd", "assign.cmd"))
-
 affine.gui <- function(base.txt) {
-
-#    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData", "cnames", "cols.selected", "dd",
-#		    "dd.cmd", "cnames.cmd", "cols.selected.cmd", "cb.cmd", "assign.cmd"))
 
     # This function provides a gui interface for taking an affine transformation of data, 'x'.
     # That is, (x-c)/b, where 'c' and 'b' are constants.  The gui will list all objects of class

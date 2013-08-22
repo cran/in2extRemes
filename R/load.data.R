@@ -4,8 +4,6 @@ load.data <- function(base.txt) {
     # This function loads the data set using tkfilefind to locate it.
     #
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("in2extRemesData.cmd", "colnames.cmd", "class.cmd", "assignCMD", "msg.cmd", "saveCMD"))
-    
     ############################
     # Internal functions
     ############################

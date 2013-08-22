@@ -1,7 +1,5 @@
 histogram.gui <- function( base.txt) {
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "histCMD"))
-
     breaks.val <- tclVar("Sturges")
 
     # Refresh fcn 

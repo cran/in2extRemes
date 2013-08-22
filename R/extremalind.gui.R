@@ -1,7 +1,5 @@
 extremalind.gui <- function( base.txt) {
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd.cmd", "xdat.cmd", "cmd", "ci.cmd", "printCMD"))
-
     # Initialize tcl values.
 
     u.value <- tclVar("")

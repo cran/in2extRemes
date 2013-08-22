@@ -1,8 +1,5 @@
 declusterGUI <- function(base.txt) {
 
-    if(getRversion() >= "2.15.1") utils::globalVariables(c("dd", "in2extRemesData", "dd.cmd", "M.cmd", "cmd",
-	"tmp.data.cmd", "plotCMD", "out.cmd", "colnames.cmd", "eiCMD", "assignCMD"))
-
     # This function provides a gui interface for declustering a dataset.
     # The gui will list all objects of class
     # "in2extRemesDataObject" and the column names of the user selected object.
