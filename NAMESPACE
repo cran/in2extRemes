@@ -5,6 +5,11 @@
 exportPattern(".")
 
 # Import all packages listed as Imports or Depends
+
+importFrom("graphics", "hist", "par", "plot")
+importFrom("stats", "glm", "pchisq")
+importFrom("utils", "help")
+
 import(
   tcltk,
   extRemes
