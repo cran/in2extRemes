@@ -399,4 +399,4 @@ evdfit.gui <- function( base.txt) {
     tkpack(mu.frm, sig.frm, gam.frm, side="top")
     tkpack(bot.frm, side="top", fill="x")
 
-} # end of ppfit.gui fcn
+} # end of evdfit.gui fcn
